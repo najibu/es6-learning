@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  },
+  "scripts": {
+    "build": "babel src -d output"
+  },
+  "dependencies": {
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1"
+  }
+}
